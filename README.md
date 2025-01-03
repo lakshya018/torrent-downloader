@@ -58,3 +58,4 @@ Run the following command:
 
 
 ## Run http://localhost:3000 in your browser after that.
+## Files will be downloaded in "torrent-files" folder in Downloads.
