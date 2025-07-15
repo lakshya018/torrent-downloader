@@ -3,7 +3,7 @@ services:
   backend:
     image: baazigar018/torrent-downloader-backend:latest
     ports:
-      - "5000:5000"
+      - "5500:5000"
     volumes:
       - ${USER_DOWNLOADS}:/root/Downloads
     environment:
