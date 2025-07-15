@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { io } from "socket.io-client";
 
-const api_url = process.env.React_APP_API_URL || "http://localhost:5000"
+const api_url = process.env.React_APP_API_URL || "http://localhost:5500"
 const socket = io(api_url);
 
 const App = () => {
